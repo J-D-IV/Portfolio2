@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #fff;
+		color: #3C3327;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 15pt;
 		font-weight: 300 !important;
@@ -226,7 +226,8 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/bg.jpg") bottom left;
+		background: url("images/bg.jpg") ;
+		background-size: contain;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -300,7 +301,7 @@ input, select, textarea {
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		/* background-size: 2250px auto; */
 		width: 6750px;
 	}
 
@@ -563,7 +564,9 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+			opacity: 0.85;
+			font-weight: bold;
+			letter-spacing: .1rem;
 		}
 
 		#header nav {
@@ -804,7 +807,7 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 1500px auto;
+			background-size: contain;
 			width: 4500px;
 		} }
 
